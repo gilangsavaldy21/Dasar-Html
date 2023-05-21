@@ -1,0 +1,15 @@
+input:invalid {
+  border: 2px solid #ff0000;
+}
+
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
+  /*CSS ini menyebabkan input memiliki batas putus-putus merah saat tidak valid dan 
+  batas hitam pekat yang lebih halus saat valid. Kami juga menambahkan gradien latar belakang saat input diperlukan dan tidak valid*/
+
+  /* jika tombol submit di tekan makan  pada elemen  input yang  kosong tidak ada huruf atau angka maka akan muncul (harap isi kolom ini) dan formulir tidak dapat di kirim */
+}
+
+input:valid {
+  border: 2px solid black; /* digunakan untuk warna garis kotak pada elemen input */
+}

@@ -1,0 +1,7 @@
+input:invalid {
+  border: 2px solid #ff0000;
+}
+
+input:valid {
+  border: 2px solid black; /* digunakan untuk warna garis kotak pada elemen input */
+}
